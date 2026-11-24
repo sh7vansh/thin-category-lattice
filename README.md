@@ -78,8 +78,7 @@ thin-category-lattice/
         ├── CheckPathValuations.lean
         ├── CheckSignedStructures.lean
         ├── CheckCellularFiltrations.lean
-        ├── CheckSubtreeEmbeddings.lean
-        └── CheckAll.lean
+        └── CheckSubtreeEmbeddings.lean
 ```
 
 ---
@@ -105,14 +104,15 @@ curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf 
    lake exe cache get
    ```
 
-3. Build the core mathematical library:
+3. Build the core mathematical library and check suites (matching the papers):
    ```bash
+   # Build main theory modules
    lake build MathProject
-   ```
 
-4. Run the axiom audits and validation checks:
-   ```bash
-   lake build MathProject.CheckAll
+   # Run paper check & audit suites
+   lake build MathProject.CheckAssociahedra MathProject.CheckFacetProducts MathProject.CheckPathValuations
+   lake build MathProject.CheckSignedStructures MathProject.CheckCellularFiltrations
+   lake build MathProject.CheckSubtreeEmbeddings
    ```
 
 All theorems compile cleanly with **0 `sorry` placeholders** and rely solely on the standard axioms `[propext, Classical.choice, Quot.sound]`.
