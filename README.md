@@ -1,6 +1,6 @@
 # The Categorical and Geometric Structure of Subobject Lattices
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://zenodo.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24506442.svg)](https://doi.org/10.5281/zenodo.24506442)
 [![Lean 4](https://img.shields.io/badge/Lean%204-v4.35.0-blue)](https://leanprover.github.io/)
 [![Mathlib 4](https://img.shields.io/badge/Mathlib-v4.35.0-green)](https://github.com/leanprover-community/mathlib4)
 [![License](https://img.shields.io/badge/License-Academic%20Evaluation-orange)](LICENSE)
@@ -127,7 +127,8 @@ All theorems compile cleanly with **0 `sorry` placeholders** and rely solely on 
   title     = {The Categorical and Geometric Structure of Subobject Lattices},
   year      = {2026},
   publisher = {Zenodo},
-  url       = {https://github.com/sh7vansh/thin-category-lattice}
+  doi       = {10.5281/zenodo.24506442},
+  url       = {https://doi.org/10.5281/zenodo.24506442}
 }
 ```
 
