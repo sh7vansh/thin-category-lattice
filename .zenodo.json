@@ -1,0 +1,29 @@
+{
+  "title": "The Categorical and Geometric Structure of Subobject Lattices",
+  "description": "Formal categorical and geometric study of subobject lattices and higher associativity, featuring a zero-sorry Lean 4 formalization. The project covers: (1) posets as thin categories, limits/colimits, idempotent monads, and signed modularity defects; (2) associahedra $K_n$, bracket-to-face order isomorphisms, Loday convex realizations, two-sided constructive equivalence between $A_n$ almost-positive roots, associahedron facets, and polygon chords, with $A_3$ specialization to 6 pentagons and 3 squares, and positive-definite discrete Dirichlet-Cartan quadratic forms; (3) path valuations into $(\\mathbb{N}, +) \\times \\mathbf{U}_2(\\mathbb{Z})$ on covering quivers, invariance under full bracketings, signed directed reassociation paths, pentagon obstruction, and transfinite Loewy filtrations in universe-stratified abelian categories; and (4) asymptotic operadic sub-tree embedding distributions, exact variance scaling, Aldous fringe laws, and boundary towers $K_N \\hookrightarrow K_{N+1}$.",
+  "creators": [
+    {
+      "name": "Singh, Shivansh"
+    }
+  ],
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "publication_date": "2026-03-01",
+  "keywords": [
+    "Category Theory",
+    "Lattice Theory",
+    "Subobject Lattices",
+    "Thin Categories",
+    "Stasheff Associahedron",
+    "Tamari Lattice",
+    "Root Systems",
+    "Operads",
+    "Formal Verification",
+    "Lean 4",
+    "Mathlib",
+    "Loewy Series",
+    "Dirichlet Energy"
+  ],
+  "access_right": "open",
+  "license": "other-closed"
+}

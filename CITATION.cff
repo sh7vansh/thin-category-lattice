@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, formal proofs, or notes in your research, please cite it as below."
+title: "The Categorical and Geometric Structure of Subobject Lattices"
+authors:
+  - family-names: "Singh"
+    given-names: "Shivansh"
+date-released: 2026-03-01
+url: "https://github.com/sh7vansh/thin-category-lattice"
+repository-code: "https://github.com/sh7vansh/thin-category-lattice"
+keywords:
+  - "Category Theory"
+  - "Lattice Theory"
+  - "Associahedra"
+  - "Tamari Lattice"
+  - "Formal Verification"
+  - "Lean 4"
+  - "Mathlib"
+license: "Custom (Academic / Peer-Review Evaluation)"
